@@ -1,0 +1,183 @@
+/* front.css */
+.front {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    position: fixed;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+/* Desktop Nav Styles */
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: white;
+    color: aqua;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 5px; 
+}
+/* front.css */
+
+
+/* Mobile Nav Styles */
+.mobile-nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
+
+.toggle {
+    display: none;
+}
+
+.toggle-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    z-index: 1001;
+    padding: 5px;
+    background-color: black;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.toggle-label:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.menu-icon {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.navbar-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 80%;
+    max-width: 300px;
+    height: 100vh;
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    transition: right 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1000;
+    padding: 80px 20px 20px;
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-menu.open {
+    right: 0;
+}
+
+.navbar-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.navbar-menu a:hover {
+    background-color: rgba(0, 255, 255, 0.2);
+    color: aqua;
+}
+
+/* Backdrop when menu is open */
+.navbar-menu.open::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+}
+
+/* Media Queries */
+@media (min-width: 1024px) {
+    .mobile-nav {
+        display: none;
+    }
+}
+
+@media (max-width: 1023px) {
+    .navbar {
+        display: none;
+    }
+    
+    .navbar-menu {
+        width: 70%;
+    }
+}
+
+/* Animation for menu icon */
+.toggle:checked + .toggle-label .menu-icon {
+    transform: rotate(180deg);
+}
+
+#signature{
+    height: 10vh;
+    margin: 0 auto;
+    background-color: black;
+}
+
+
+
+/* Active link styles */
+.nav-links a.active,
+.navbar-menu a.active {
+    background-color: white;
+    color: aqua;
+    font-weight: bold;
+}
+
+/* Desktop hover styles - only apply hover when not active */
+.nav-links a:not(.active):hover {
+    background-color: white;
+    color: aqua;
+    font-weight: bold;
+}
+
+/* Mobile hover styles - only apply hover when not active */
+.navbar-menu a:not(.active):hover {
+    background-color: rgba(0, 255, 255, 0.2);
+    color: aqua;
+}

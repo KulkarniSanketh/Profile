@@ -1,0 +1,50 @@
+.projects{
+    color: white;
+    margin-top: 10%;
+    text-align: center;
+}
+#projectsmodel-img {
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    z-index: 1;
+}
+.right{
+    padding: 50px;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 14px;
+    border-radius: 5px
+}
+
+.card-body h5{
+    text-decoration: underline;
+    text-decoration-color: gold;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+}
+.card{
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.dsa{
+    text-decoration: underline;
+    text-decoration-color: gold;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+}

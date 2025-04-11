@@ -1,0 +1,28 @@
+.skills {
+    margin-top: 10%;
+    color: white;
+    text-align: center;
+}
+
+.content {
+    margin-top: 10%;
+}
+
+#skillsmodel-img {
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.right {
+    color: white;
+    opacity: 0.9;
+}
+
+.left {
+    color: white;
+    opacity: 0.9;
+}

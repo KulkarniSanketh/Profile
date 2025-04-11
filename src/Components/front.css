@@ -1,0 +1,32 @@
+
+
+
+/* Front */
+#right-img{
+    
+    width: 100%;
+    margin: 0 auto;
+}
+.left{
+    color: white;
+    opacity: 0.9;
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+}
+.right-box{
+    height: fit-content;
+    width: fit-content;
+    
+}
+.front-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 0px;
+   padding: 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+

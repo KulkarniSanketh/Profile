@@ -1,0 +1,32 @@
+.about{
+    color: white;
+}
+.content{
+    margin-top: 10%;
+}
+#hellomodel-img{
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.right{
+    color: white;
+    opacity: 0.9;
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+.right h5{
+    color: aqua;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px #fff;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: gold;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+}
