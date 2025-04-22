@@ -1,6 +1,6 @@
 import React from "react";
 import "./project.css";
-import projectsmodel from "../assets/projectsmodel.png";
+import projectsmodel from "../assets/projectsmodel.webp";
 import satyam from "../assets/satyam.png";
 import leetcode from "../assets/leetcode.png";
 import gfg from "../assets/gfg.png";

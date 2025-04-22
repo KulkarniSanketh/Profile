@@ -2,7 +2,7 @@ import React from "react";
 import "./about.css";
 import Navigation from "./Navigation";
 import "./front.css";
-import hellomodel from "../assets/hellomodel.png";
+import hellomodel from "../assets/hellomodel.webp";
 function About() {
   return (
     <div className="about">

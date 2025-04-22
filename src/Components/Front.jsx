@@ -1,7 +1,7 @@
 import React from "react";
 import Navigation from "./Navigation";
 import "./front.css";
-import model from "../assets/model.png";
+import model from "../assets/model.webp";
 import linkdin from "../assets/linkdin.png";
 import github from "../assets/github.png";
 import instagram from "../assets/instagram.png";

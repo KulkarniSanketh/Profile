@@ -1,6 +1,6 @@
 import React from 'react'
 import './contact.css'
-import contactmodel from '../assets/contactmodel.png'
+import contactmodel from '../assets/contactmodel.webp'
 
 
 function Contact() {
