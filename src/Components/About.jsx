@@ -6,6 +6,7 @@ import hellomodel from "../assets/hellomodel.webp";
 function About() {
   return (
     <div className="about">
+    <br />
       <div className="content container-fluid">
         <h2 className="text-center text-info">About me</h2>
         <br />

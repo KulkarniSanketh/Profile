@@ -18,6 +18,7 @@ function Skills() {
   return (
     <div className="skills">
       <div className="container content">
+      <br />
         <h2 className="text-info">Skills</h2>
         <div className="row">
           <div className="col-lg-6 left">

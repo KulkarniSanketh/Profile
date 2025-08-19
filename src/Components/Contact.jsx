@@ -40,13 +40,16 @@ function Contact() {
 
   return (
     <div className='contact'>
+    <br />
     <h1 className='text-info'>Contact me</h1>
     <div className="container">
+    <br />
       <div className="row">
         <div className="col-lg-6 left">
           <img src={contactmodel} alt="" id='contactmodel-img'/>
         </div>
         <div className="col-lg-6 right">
+        <br />
           <h5>Get in Touch</h5>
           
           <form onSubmit={onSubmit}>
